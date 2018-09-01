@@ -58,7 +58,7 @@ echo默认会在输出文本尾部追加一个换行符，可使用`-n`来禁止
 白色 = 37
 ```
 ```shell
-echo -e "\e[1;31m This is red text \e[0m
+echo -e "\e[1;31m This is red text \e[0m"
 ```
 其中`\e[1;31m`是转义字符串，设置为红色，\e[0m将颜色重新置回
 背景颜色颜色码：
@@ -74,5 +74,5 @@ echo -e "\e[1;31m This is red text \e[0m
 白色 = 47
 ```
 ```shell
-echo -e "\e[1;42m Green Background \e[0m
+echo -e "\e[1;42m Green Background \e[0m"
 ```

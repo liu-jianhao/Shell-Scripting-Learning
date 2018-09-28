@@ -17,3 +17,14 @@ $ chmod +s executable_file
 $ ./excutable_file
 ```
 `setuid`只能应用在LinuxELF格式的二进制文件上，不可以对脚本设置
+
+## 将文件设置为不可修改
+`chattr`命令可用于修改更改扩展属性
+
+```shell
+$ chattr +i file
+```
+撤销
+```shell
+$ chattr -i file
+```
